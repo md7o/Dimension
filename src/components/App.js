@@ -12,8 +12,8 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route exact path="/" element={<Main />} />
-          <Route exact path="/Services" element={<Services />} />
+          <Route exact path="/design-app" element={<Main />} />
+          <Route exact path="/design-app/Services" element={<Services />} />
         </Routes>
       </BrowserRouter>
     </>

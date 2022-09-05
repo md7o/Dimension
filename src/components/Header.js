@@ -6,17 +6,17 @@ function Header() {
     {
       id: 1,
       text: "Home",
-      to: "/"
+      t: "/design-app"
     },
     {
       id: 2,
       text: "Services",
-      to: "/Services"
+      t: "/design-app/Services"
     },
     {
       id: 3,
       text: "Contacts",
-      to: "/Services"
+      t: "/Services"
     }
   ];
 
@@ -31,7 +31,7 @@ function Header() {
           {nav.map((nav) => (
             <NavLink
               key={nav.id}
-              to={`${nav.to}`}
+              to={`${nav.t}`}
               className="p-4 hover:text-Co2 duration-150"
               href="#"
             >
