@@ -1,7 +1,7 @@
 {
   "name": "design-app",
   "version": "0.1.0",
-  "homepage": "https://md7o.github.io/React",
+  "homepage": "https://md7o.github.io/React/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -10,7 +10,6 @@
     "aos": "^3.0.0-beta.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.3.0",
     "react-router-mapping": "^2.1.1",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
@@ -51,6 +50,7 @@
     "gh-pages": "^4.0.0",
     "lint-staged": "^13.0.3",
     "postcss": "^8.4.16",
+    "react-router-dom": "^6.3.0",
     "tailwindcss": "^3.1.8"
   }
 }
