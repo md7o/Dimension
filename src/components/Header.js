@@ -1,5 +1,5 @@
 import React from "react";
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 function Header() {
   return (
     <div>
@@ -10,15 +10,15 @@ function Header() {
 
         <div className="flex justify-center items-center">
           <nav>
-            <Link className="hover:text-Co2 duration-150" to="/">
-              Invoices
-            </Link>{" "}
-            |{" "}
-            <Link className="hover:text-Co2 duration-150" to="/services">
-              Expenses
-            </Link>
+            <ul>
+              <li>
+                <Link to="/">Home</Link>
+              </li>
+              <li>
+                <Link to="/services">Books</Link>
+              </li>
+            </ul>
           </nav>
-          <Outlet />
         </div>
       </div>
     </div>
