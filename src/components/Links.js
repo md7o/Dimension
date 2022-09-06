@@ -1,5 +1,6 @@
 import React from "react";
-import { Route, Routes, Link } from "react-router-dom";
+import { Route, Routes, NavLink } from "react-router-dom";
+import Main from "./Main";
 import Services from "./Service/Services";
 
 function App() {
@@ -14,10 +15,10 @@ function App() {
             <nav>
               <ul>
                 <li>
-                  <Link to="/">Home</Link>
+                  <NavLink to="/">Home</NavLink>
                 </li>
                 <li>
-                  <Link to="/services">Services</Link>
+                  <NavLink to="/services">Services</NavLink>
                 </li>
               </ul>
             </nav>
@@ -25,6 +26,7 @@ function App() {
         </div>
       </div>
       <Routes>
+        <Route path="/" element={<Main />} />
         <Route path="/services" element={<Services />} />
       </Routes>
     </>

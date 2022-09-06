@@ -82,7 +82,7 @@ function Features() {
                   className=" hidden"
                   style={Num}
                   width={500}
-                  src={Num.img}
+                  src={process.env.PUBLIC_URL + Num.img}
                 />
               </div>
               <div>
