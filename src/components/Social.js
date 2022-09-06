@@ -17,11 +17,17 @@ function Social() {
         </h1>
         <div data-aos={"zoom-in"} className="flex justify-center items-center">
           <button className="flex justify-center items-center sm:text-4xl text-2xl mr-12 mt-24 font-bold text-white sm:border-8 border-4 border-Co2 hover:bg-Co2 duration-150 rounded-full sm:px-14 px-6 py-3 ">
-            <img className="mr-5 lg:w-16 w-8" src="/images/email.png" />
+            <img
+              className="mr-5 lg:w-16 w-8"
+              src={process.env.PUBLIC_URL + "/images/email.png"}
+            />
             Email
           </button>
           <button className="flex justify-center items-center sm:text-4xl text-2xl  mt-24 font-bold text-white sm:border-8 border-4 border-Co2 hover:bg-Co2 duration-150 rounded-full sm:px-14 px-6 py-3 ">
-            <img className="mr-5 lg:w-16 w-8" src="/images/whatsapp.png" />{" "}
+            <img
+              className="mr-5 lg:w-16 w-8"
+              src={process.env.PUBLIC_URL + "/images/whatsapp.png"}
+            />{" "}
             WhatsApp
           </button>
         </div>

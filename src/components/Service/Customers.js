@@ -43,7 +43,11 @@ function Customers() {
       >
         {company.map((company) => (
           <div className="mx-auto" key={company.id}>
-            <img className="" width={150} src={company.img} />
+            <img
+              className=""
+              width={150}
+              src={process.env.PUBLIC_URL + company.img}
+            />
           </div>
         ))}
       </div>

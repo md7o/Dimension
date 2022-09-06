@@ -76,7 +76,11 @@ function LastWork() {
         >
           {Work.map((Work) => (
             <div className="px-5 text-center " key={Work.id}>
-              <img className="border-4 border-Co2" width={500} src={Work.img} />
+              <img
+                className="border-4 border-Co2"
+                width={500}
+                src={process.env.PUBLIC_URL + Work.img}
+              />
               <div className="py-3">
                 <h2 className="text-white text-2xl font-bold">{Work.title}</h2>
                 <p className="underline text-Co2 cursor-pointer hover:text-white duration-150">
@@ -95,7 +99,10 @@ function LastWork() {
         <div data-aos={"zoom-in"} className="grid 2xl:grid-cols-3 grid-cols-2 ">
           {OurService.map((OurService) => (
             <div className="mx-auto py-12 text-center" key={OurService.id}>
-              <img className="2xl:w-48 sm:w-44" src={OurService.img} />
+              <img
+                className="2xl:w-48 sm:w-44"
+                src={process.env.PUBLIC_URL + OurService.img}
+              />
               <h2 className="text-white text-2xl pt-4">{OurService.title}</h2>
             </div>
           ))}

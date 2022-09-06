@@ -2,7 +2,7 @@ import React from "react";
 
 function Interface() {
   const myStyle = {
-    backgroundImage: "url('/images/BackGround1.png')",
+    backgroundImage: "url( '/images/BackGround1.png')",
     backgroundSize: "cover",
     // backgroundAttachment: "fixed",
     backgroundRepeat: "no-repeat"

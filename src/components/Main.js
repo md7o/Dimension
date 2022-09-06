@@ -1,14 +1,15 @@
 import React from "react";
-import Header from "./Header";
+import Links from "./Links";
 import Fotter from "./Fotter";
-import Interface from ".//Interface";
+import Interface from "./Interface";
 import Features from "./Features";
-import Social from ".//Social";
-import WebDevolopment from ".//WebDevolopment";
+import Social from "./Social";
+import WebDevolopment from "./WebDevolopment";
+
 function Main() {
   return (
     <div>
-      <Header />
+      <Links />
       <Interface />
       <Features />
       <Social />

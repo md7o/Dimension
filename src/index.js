@@ -1,16 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter } from "react-router-dom";
-
+import { HashRouter } from "react-router-dom";
 import Main from "./components/Main";
 import "./index.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <Main />
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
 {
@@ -21,3 +20,4 @@ root.render(
   <Route path=":services" element={<Services />} />
 </Routes>; */
 }
+// process.env.PUBLIC_URL +

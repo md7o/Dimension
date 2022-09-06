@@ -1,5 +1,4 @@
 import React from "react";
-
 function Features() {
   const Num = [
     {
@@ -80,7 +79,7 @@ function Features() {
             >
               <div>
                 <img
-                  className="hlao hidden"
+                  className=" hidden"
                   style={Num}
                   width={500}
                   src={Num.img}

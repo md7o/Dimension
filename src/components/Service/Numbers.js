@@ -38,7 +38,11 @@ function Numbers() {
       >
         {Num.map((Num) => (
           <div className="" key={Num.id}>
-            <img className="" width={150} src={Num.img} />
+            <img
+              className=""
+              width={150}
+              src={process.env.PUBLIC_URL + Num.img}
+            />
             <p className="text-white mx-auto text-center py-8 text-2xl break-normal	max-w-min">
               {Num.value}
             </p>

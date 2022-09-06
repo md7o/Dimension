@@ -50,7 +50,7 @@ function WebDevolopment() {
           <div className="m-16" key={Features.id}>
             <img
               className=" hover:w-36 duration-300 mx-auto"
-              src={Features.img}
+              src={process.env.PUBLIC_URL + Features.img}
               width={180}
             />
             <p className="text-center text-3xl text-Co1 font-semibold pt-12">
