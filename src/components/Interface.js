@@ -2,14 +2,14 @@ import React from "react";
 
 function Interface() {
   const myStyle = {
-    backgroundImage: "url( '/images/BackGround1.png')",
+    backgroundImage: `url('${process.env.PUBLIC_URL}/images/BackGround1.png')`,
     backgroundSize: "cover",
     // backgroundAttachment: "fixed",
     backgroundRepeat: "no-repeat"
   };
   return (
     <div>
-      <div className=" w-full h-xll" style={myStyle}>
+      <div className=" w-full h-xll " style={myStyle}>
         <div className="text-center font-Cai">
           <h1 className="pt-64 text-white lg:text-8xl text-5xl ">
             خدمة تطوير المواقع الإلكترونية

@@ -11,7 +11,7 @@ function Fotter() {
         </p>
 
         <div className="flex justify-center items-center">
-          <img src="/images/email.png" width={50} />{" "}
+          <img src={process.env.PUBLIC_URL + "/images/email.png"} width={50} />{" "}
           <p className="text-3xl px-3 ">md7ohe@gmail.com</p>
         </div>
         <p className="text-xl mt-16">© 2022 Dimension | All Rights Reserved</p>

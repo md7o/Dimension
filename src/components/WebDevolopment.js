@@ -44,7 +44,7 @@ function WebDevolopment() {
       </h1>
       <div
         data-aos={"zoom-in"}
-        className="grid lg:grid-cols-3 justify-center items-center lg:mx-mxx py-52"
+        className="grid 2xl:grid-cols-3  justify-center items-center py-52"
       >
         {Features.map((Features) => (
           <div className="m-16" key={Features.id}>

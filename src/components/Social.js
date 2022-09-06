@@ -2,12 +2,12 @@ import React from "react";
 
 function Social() {
   const myStyle2 = {
-    backgroundImage: "url('/images/BackGround2.png')",
+    backgroundImage: `url('${process.env.PUBLIC_URL}/images/BackGround2.png')`,
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat"
   };
   return (
-    <div className="my-80">
+    <div className="my-80 bg-Co1">
       <div className=" w-full h-sll text-center font-Cai" style={myStyle2}>
         <h1
           data-aos={"zoom-in"}
