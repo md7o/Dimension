@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "./https://md7o.github.io/React/static/css/main.41bb57e9.css",
-    "main.js": "./https://md7o.github.io/React/static/js/main.dd595ff6.js",
+    "main.js": "./https://md7o.github.io/React/static/js/main.aaa716a9.js",
     "index.html": "./https://md7o.github.io/React/index.html",
     "main.41bb57e9.css.map": "./https://md7o.github.io/React/static/css/main.41bb57e9.css.map",
-    "main.dd595ff6.js.map": "./https://md7o.github.io/React/static/js/main.dd595ff6.js.map"
+    "main.aaa716a9.js.map": "./https://md7o.github.io/React/static/js/main.aaa716a9.js.map"
   },
   "entrypoints": [
     "static/css/main.41bb57e9.css",
-    "static/js/main.dd595ff6.js"
+    "static/js/main.aaa716a9.js"
   ]
 }
