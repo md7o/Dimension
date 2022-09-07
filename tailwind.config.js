@@ -12,6 +12,7 @@ module.exports = {
         Cai: ["Cairo"]
       },
       height: {
+        Hll: "75rem",
         xll: "50rem",
         sll: "35rem"
       },

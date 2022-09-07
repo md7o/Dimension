@@ -10,7 +10,7 @@ function Interface() {
   return (
     <div>
       <div className=" w-full h-xll " style={myStyle}>
-        <div className="text-center font-Cai">
+        <div data-aos={"zoom-in"} className="text-center font-Cai">
           <h1 className="pt-64 text-white lg:text-8xl text-5xl ">
             خدمة تطوير المواقع الإلكترونية
           </h1>

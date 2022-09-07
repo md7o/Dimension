@@ -13,13 +13,13 @@ function App() {
         <div>
           <div className="">
             <nav>
-              <ul className="flex justify-center items-center ">
+              <ul className="flex justify-center items-center select-none	">
                 <li>
                   <Link className="hover:text-Co2 duration-150 px-2" to="/">
                     Home
                   </Link>
                 </li>
-                |
+                <span className="cursor-default select-none"> |</span>
                 <li>
                   <Link
                     className="hover:text-Co2 duration-150 px-2"

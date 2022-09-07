@@ -6,19 +6,22 @@ function LastWork() {
       id: 1,
       img: "/images/store.png",
       title: "MDSTORE",
-      href: "View >"
+      to: "View >",
+      href: "https://md7o.github.io/store/"
     },
     {
       id: 2,
       img: "/images/inno.png",
       title: "INNOVIRTUAL",
-      href: "View >"
+      to: "View >",
+      href: "https://astorm.net/innoVirtual/#"
     },
     {
       id: 3,
       img: "/images/quastion.png",
       title: "qGame",
-      href: "View >"
+      to: "View >",
+      href: "https://astorm.net/questionGame/#"
     }
   ];
 
@@ -26,38 +29,32 @@ function LastWork() {
     {
       id: 1,
       img: "/images/animation.png",
-      title: "MDSTORE",
-      href: "View >"
+      title: "MDSTORE"
     },
     {
       id: 2,
       img: "/images/branding.png",
-      title: "INNOVIRTUAL",
-      href: "View >"
+      title: "INNOVIRTUAL"
     },
     {
       id: 3,
       img: "/images/social-marketing.png",
-      title: "qGame",
-      href: "View >"
+      title: "qGame"
     },
     {
       id: 4,
       img: "/images/web-development.png",
-      title: "qGame",
-      href: "View >"
+      title: "qGame"
     },
     {
       id: 5,
       img: "/images/content.png",
-      title: "qGame",
-      href: "View >"
+      title: "qGame"
     },
     {
       id: 6,
       img: "/images/tablet.png",
-      title: "qGame",
-      href: "View >"
+      title: "qGame"
     }
   ];
 
@@ -83,9 +80,12 @@ function LastWork() {
               />
               <div className="py-3">
                 <h2 className="text-white text-2xl font-bold">{Work.title}</h2>
-                <p className="underline text-Co2 cursor-pointer hover:text-white duration-150">
-                  {Work.href}
-                </p>
+                <a
+                  href={Work.href}
+                  className="underline text-Co2 cursor-pointer hover:text-white duration-150"
+                >
+                  {Work.to}
+                </a>
               </div>
             </div>
           ))}

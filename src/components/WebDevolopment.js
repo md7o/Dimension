@@ -38,7 +38,7 @@ function WebDevolopment() {
     <div>
       <h1
         data-aos={"zoom-in"}
-        className="text-center  text-Co1 lg:text-7xl text-3xl font-bold"
+        className="text-center  text-Co1 lg:text-6xl text-5xl font-bold"
       >
         بماذا تتميز خدماتنا في خدمة تطوير المواقع الالكترونية
       </h1>
@@ -49,9 +49,9 @@ function WebDevolopment() {
         {Features.map((Features) => (
           <div className="m-16" key={Features.id}>
             <img
-              className=" hover:w-36 duration-300 mx-auto"
+              className=" hover:w-36 duration-500 mx-auto"
               src={process.env.PUBLIC_URL + Features.img}
-              width={180}
+              width={200}
             />
             <p className="text-center text-3xl text-Co1 font-semibold pt-12">
               {Features.text}
