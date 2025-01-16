@@ -4,6 +4,7 @@ function Interface() {
   const myStyle = {
     backgroundImage: `url('${process.env.PUBLIC_URL}/images/BackGround1.png')`,
     backgroundSize: "cover",
+    backgroundSize: "cover",
     // backgroundAttachment: "fixed",
     backgroundRepeat: "no-repeat"
   };
@@ -14,6 +15,9 @@ function Interface() {
           <h1 className="pt-52 text-white lg:text-8xl text-5xl ">
             خدمة تطوير المواقع الإلكترونية
           </h1>
+          <p className="pt-12 text-white lg:text-5xl text-4xl">
+            نوفر لك كل ما تحتاجه لتحقيق تواجد رقمي مميز
+          </p>
           <p className="pt-12 text-white lg:text-5xl text-4xl">
             نوفر لك كل ما تحتاجه لتحقيق تواجد رقمي مميز
           </p>
