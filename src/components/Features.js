@@ -83,24 +83,6 @@ function Features() {
       >
         كل ما تحتاجه لتكون جزءً من العالم الرقمي
       </p>
-      <p
-        data-aos={"zoom-in"}
-        className="text-center pt-36 text-5xl font-bold text-Co1"
-      >
-        كل ما تحتاجه لتكون جزءً من العالم الرقمي
-      </p>
-      <p
-        data-aos={"zoom-in"}
-        className="text-center pt-36 text-5xl font-bold text-Co1"
-      >
-        كل ما تحتاجه لتكون جزءً من العالم الرقمي
-      </p>
-      <p
-        data-aos={"zoom-in"}
-        className="text-center pt-36 text-5xl font-bold text-Co1"
-      >
-        كل ما تحتاجه لتكون جزءً من العالم الرقمي
-      </p>
       <div>
         <div className="">
           {Num.map((Num) => (
