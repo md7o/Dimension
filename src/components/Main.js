@@ -13,7 +13,7 @@ function Main() {
     stateLoading(true);
     setTimeout(() => {
       stateLoading(false);
-    }, 1500);
+    }, 1400);
   }, []);
   return (
     <div className="load">
